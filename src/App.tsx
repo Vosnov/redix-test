@@ -22,7 +22,7 @@ function App() {
         </form>
       </Modal>
 
-      <Modal open={open} onOpenChange={setOpen} title={'Title 2'} trigger={<Button>Modal 2</Button>}>
+      <Modal title={'Title 2'} trigger={<Button>Modal 2</Button>}>
         <form className="form">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque molestias sequi consectetur magnam tempora quis ut perferendis voluptates ipsam quidem at mollitia dicta quibusdam fuga, ipsa, error doloremque maxime in? Aperiam mollitia magnam, sapiente recusandae fugiat consequuntur placeat repudiandae omnis commodi ut, natus reprehenderit laborum nesciunt non harum voluptatum.</p>
         </form>
